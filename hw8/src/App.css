@@ -1,0 +1,229 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.newsList {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.header {
+  width: 100%;
+  height: max-content;
+  padding-left: 20px;
+}
+
+.news {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.currencies {
+  width: 80%;
+  height: max-content;
+  margin: 10px auto;
+}
+
+.currenciesList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+.currency h4 {
+  height: 100%;
+  width: max-content;
+  font-weight: 600;
+}
+
+.navgation {
+  width: 80%;
+  height: max-content;
+  margin: 10px auto;
+  margin-top: 10px;
+}
+
+.navgationList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+.item a{
+  height: 100%;
+  width: max-content;
+  margin-right: 15px;
+  font-weight: 400;
+}
+
+.search {
+  width: 80%;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.search-input {
+  height: 100%;
+  width: 90%;
+  border: 2px solid rgb(255, 213, 0);
+}
+
+.search-input:focus {
+  outline: 2px auto rgb(255, 170, 0);
+}
+
+.search-btn {
+  height: 100%;
+  width: 10%;
+  border: 2px solid rgb(255, 213, 0);
+  background-color: rgb(255, 213, 0);;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn:focus {
+  outline: 2px auto rgb(255, 170, 0);
+}
+
+.search-btn:hover {
+  border: 2px solid rgb(255, 170, 0);
+}
+
+.widgets {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.widgets h2 {
+  font-weight: 500;
+}
+
+.weather {
+  width: 33%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.weather-header {
+  height: 30%;
+  width: 100%;
+}
+
+.img-weather {
+  width: auto;
+  height: 60%;
+}
+
+.temperature {
+  width: max-content;
+  height: 60%;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.programs {
+  width: 33%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.programs-title {
+  width: 100%;
+  height: max-content;
+}
+
+.programList {
+  list-style: none;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.program {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.program h3{
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.streams {
+  width: 33%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.stream {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.stream img {
+  height: 30px;
+  width: auto;
+}
+
+.stream-title {
+  margin-left: 5px;
+  font-weight: 400;
+  font-size: 1.1rem;
+}

@@ -27,18 +27,16 @@ function Crud() {
             body: JSON.stringify({content: evt.target.inputNote.value})
         })
 
-        fetchNotes();
         evt.target.inputNote.value = '';
     }
 
     const deleteNote = async (id) => {
         await fetch(`http://localhost:7070/notes/${id}`, {method: 'DELETE'});
-        fetchNotes();
     }
 
     useEffect(() => {
         fetchNotes();
-    }, [])
+    })
     
     return (
         <>

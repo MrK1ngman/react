@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.calculate {
+  display: flex;
+  margin: 50px auto;
+  width: max-content;
+  height: 45px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  height: 45px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.price {
+  height: 45px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.save {
+  height: 45px;
+  width: 100px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.items {
+  display: flex;
+  margin: auto;
+  width: 800px;
+  height: auto;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.item {
+  display: flex;
+  width: 800px;
+  height: max-content;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin: 10px 0;
+  list-style: none;
+}
+
+.item > * {
+  margin-right: 10px;
+}
